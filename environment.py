@@ -1,2 +1,2 @@
 ﻿# Enviroenment de simulation pour les tirs
-print("Environement charge")
+print("Environment charge")

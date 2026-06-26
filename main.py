@@ -1,7 +1,7 @@
 
 import datetime
-from ccannon import CCannon
-from csavemanager import CSaveManager
+from CCannon import CCannon
+from CSaveManager import CSaveManager
 print("=== SIMULATEUR ===")
 
 cannon = CCannon()
