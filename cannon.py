@@ -1,11 +1,11 @@
-﻿from projectile import Projectile
-from tir import Tir
+﻿from projectile import CProjectile
+from tir import CTir
 
-class Cannon:
+class CCannon:
     def __init__(self):
         pass
 
     def fire(self, vitesse, angle):
-        projectile = Projectile(vitesse, angle)
-        return Tir(projectile)
+        projectile = CProjectile(vitesse, angle)
+        return CTir(projectile)
 

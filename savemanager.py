@@ -1,6 +1,6 @@
 ﻿import csv
 
-class SaveManager:
+class CSaveManager:
     def __init__(self, filename="resultats.csv"):
         self.filename = filename
         self.data = []

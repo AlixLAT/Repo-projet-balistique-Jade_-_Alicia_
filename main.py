@@ -1,10 +1,10 @@
-﻿from cannon import Cannon
-from savemanager import SaveManager
+﻿from cannon import CCannon
+from savemanager import CSaveManager
 
 print("=== SIMULATEUR ===")
 
-cannon = Cannon()
-save = SaveManager()
+cannon = CCannon()
+save = CSaveManager()
 
 nb = int(input("Nombre de tirs : "))
 

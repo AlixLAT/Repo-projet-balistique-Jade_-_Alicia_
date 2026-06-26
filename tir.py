@@ -1,6 +1,6 @@
 ﻿import math
 
-class Tir:
+class CTir:
     def __init__(self, projectile):
         self.projectile = projectile
 
