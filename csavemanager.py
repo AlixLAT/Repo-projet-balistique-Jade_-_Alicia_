@@ -13,5 +13,3 @@ class CSaveManager:
             writer = csv.writer(f)
             writer.writerow(["date","vitesse", "angle", "portee", "temps", "hauteur"])
             writer.writerows(self.__data)
-
-# Gestionnaire de sauvegarde pour les resultats.

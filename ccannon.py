@@ -1,5 +1,5 @@
-﻿from CProjectile import CProjectile
-from CTir import CTir
+﻿from Cprojectile import CProjectile
+from Ctir import CTir
 
 class CCannon:
     def __init__(self):
@@ -8,5 +8,3 @@ class CCannon:
     def fire(self, vitesse, angle):
         projectile = CProjectile(vitesse, angle)
         return CTir(projectile)
-
-# C'est un canon tres simplle, mais pafaitement fonctionnel.

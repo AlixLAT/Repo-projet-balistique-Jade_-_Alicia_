@@ -15,5 +15,3 @@ class CTir:
     def hauteur_max(self):
         a = math.radians(self.__projectile.angle)
         return (self.__projectile.vitesse ** 2 * (math.sin(a) ** 2)) / (2 * 9.81)
-
-# Calcul de la trajectoire et de la porte.
