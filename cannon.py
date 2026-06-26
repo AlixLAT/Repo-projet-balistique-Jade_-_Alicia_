@@ -9,4 +9,3 @@ class Cannon:
         projectile = Projectile(vitesse, angle)
         return Tir(projectile)
 
-# C'est un canon tres simplle, mais pafaitement fonctionnel.
