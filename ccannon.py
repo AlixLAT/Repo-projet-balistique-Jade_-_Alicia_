@@ -1,5 +1,5 @@
-﻿from projectile import CProjectile
-from tir import CTir
+﻿from cprojectile import CProjectile
+from ctir import CTir
 
 class CCannon:
     def __init__(self):
