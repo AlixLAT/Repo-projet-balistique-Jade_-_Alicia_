@@ -1,7 +1,7 @@
-from cannon import Cannon
+﻿from cannon import Cannon
 from savemanager import SaveManager
 
-print("=== SIMULATOR ===")
+print("=== SIMULATEUR ===")
 
 cannon = Cannon()
 save = SaveManager()
@@ -21,7 +21,7 @@ for i in range(nb):
     t = tir.temps_vol()
     h = tir.hauteur_max()
 
-    print("Portee :", round(p, 2))
+    print("Portte :", round(p, 2))
     print("Temps :", round(t, 2))
     print("Hauteur :", round(h, 2))
 

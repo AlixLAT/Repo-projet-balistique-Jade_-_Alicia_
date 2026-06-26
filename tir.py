@@ -1,4 +1,4 @@
-import math
+﻿import math
 
 class Tir:
     def __init__(self, projectile):
@@ -15,3 +15,5 @@ class Tir:
     def hauteur_max(self):
         a = math.radians(self.projectile.angle)
         return (self.projectile.vitesse ** 2 * (math.sin(a) ** 2)) / (2 * 9.81)
+
+# Calcul de la trajectoire et de la porte.

@@ -1,4 +1,4 @@
-import csv
+﻿import csv
 
 class SaveManager:
     def __init__(self, filename="resultats.csv"):
@@ -13,3 +13,5 @@ class SaveManager:
             writer = csv.writer(f)
             writer.writerow(["vitesse", "angle", "portee", "temps", "hauteur"])
             writer.writerows(self.data)
+
+# Gestionnaire de sauvegarde pour les resultats.
