@@ -5,13 +5,13 @@ class CSaveManager:
         self.filename = filename
         self.data = []
 
-    def add(self, vitesse, angle, portee, temps, hauteur):
-        self.data.append([vitesse, angle, portee, temps, hauteur])
+    def add(self, date, vitesse, angle, portee, temps, hauteur):
+        self.data.append([date, vitesse, angle, portee, temps, hauteur])
 
     def save(self):
         with open(self.filename, "w", newline="") as f:
             writer = csv.writer(f)
-            writer.writerow(["vitesse", "angle", "portee", "temps", "hauteur"])
+            writer.writerow(["date","vitesse", "angle", "portee", "temps", "hauteur"])
             writer.writerows(self.data)
 
 # Gestionnaire de sauvegarde pour les resultats.

@@ -9,3 +9,4 @@ class CCannon:
         projectile = CProjectile(vitesse, angle)
         return CTir(projectile)
 
+# C'est un canon tres simplle, mais pafaitement fonctionnel.

@@ -1,12 +1,13 @@
-﻿from cannon import CCannon
-from savemanager import CSaveManager
 
+from cannon import CCannon
+from savemanager import CSaveManager
 print("=== SIMULATEUR ===")
 
 cannon = CCannon()
 save = CSaveManager()
 
 nb = int(input("Nombre de tirs : "))
+date = datetime.datetime.now().strftime("%d/%m/%Y %H:%M")
 
 for i in range(nb):
 
@@ -25,7 +26,7 @@ for i in range(nb):
     print("Temps :", round(t, 2))
     print("Hauteur :", round(h, 2))
 
-    save.add(vitesse, angle, p, t, h)
+    save.add(date, vitesse, angle, p, t, h)
 
 save.save()
 
