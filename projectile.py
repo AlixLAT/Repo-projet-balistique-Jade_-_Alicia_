@@ -3,4 +3,4 @@
         self.vitesse = vitesse
         self.angle = angle
 
-# Obectif du projectile: garder les donnees.
+
